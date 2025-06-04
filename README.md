@@ -17,11 +17,14 @@ tags:
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
-## Installing the packages from the command line terminal
-
+Setup the packages
+```
 pip install -r requirements.txt
 pip install 'smolagents[gradio]'
+```
 
-huggingface-cli login # set the access token from the huggingface
+Run the huggingface cli
+`huggingface-cli login # set the access token from the huggingface`
 
-## python app.py
+## Run the app
+`python app.py`
